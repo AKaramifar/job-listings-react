@@ -1,0 +1,11 @@
+.Div_FilterBox_CSS{
+    background-color: #effafa;
+    box-shadow: 1px 5px 18px -2px rgba(91,164,164,.35);
+    position: absolute;
+    border-radius: 5px;
+    width: 80%;
+    height: 80px;
+    top: 110px;
+    left: 10%;
+    z-index: 1;
+}

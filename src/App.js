@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header.js';
+import FilterBox from './components/FilterBox.js'
+import Jobs from './components/Jobs.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="Div_App_JSX"className="Div_App_CSS">
+      <Header />
+      <FilterBox />
+      <Jobs />
     </div>
   );
 }
