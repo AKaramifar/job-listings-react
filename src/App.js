@@ -16,6 +16,10 @@ function App() {
       showData(arrtags);
     }
   };
+  const RemoveAllTags = () =>{
+    setTags([]);
+    showData([]);
+  }
   const RemoveTags = (tag) => {
       let alltags = tags;
       const index = alltags.indexOf(tag);
@@ -45,7 +49,7 @@ function App() {
     <div id="Div_App_JSX" className="Div_App_CSS">
       {/* {console.log(tags)} */}
       <Header />
-      <FilterBox removeTage={RemoveTags} arrayTags={tags} />
+      <FilterBox removeAllTags={RemoveAllTags} removeTage={RemoveTags} arrayTags={tags} />
       <Jobs jobsInfo={data} addTags={AddTags} />
     </div>
   );

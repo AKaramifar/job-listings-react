@@ -34,7 +34,7 @@
 }
 .I_Times_CSS{
     color: white;
-    background-color: black;
+    background-color: #5ba4a4;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 8px;
@@ -42,7 +42,6 @@
     transition: 200ms;
 }
 .I_Times_CSS:hover{
-    color: #EE5A24;
     background-color: rgb(39, 39, 39);
     cursor: pointer;
 }
@@ -52,4 +51,21 @@
   align-items: center;
   width: 10%;
   height: 80px;
+}
+.P_RemoveTag_CSS{
+  font-family: "Spartan", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #5ba4a4;
+  background-color: #eef6f6 ;
+}
+.P_RemoveTag_CSS:hover{
+  cursor: pointer;
+  color: #eef6f6 ;
+  background-color: #e84118;
+}
+.P_Nothing_CSS{
+  display: none;
 }
