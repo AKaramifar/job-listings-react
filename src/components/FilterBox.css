@@ -1,3 +1,11 @@
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .Div_FilterBox_CSS {
   background-color: #ffffff;
   box-shadow: 1px 5px 18px -2px rgba(91, 164, 164, 0.35);
@@ -10,6 +18,8 @@
   z-index: 1;
   display: flex;
   overflow: overlay;
+  animation: FadeIn 500ms;
+  transition: 200ms;
 }
 .Div_Tag_CSS {
   display: flex;
