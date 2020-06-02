@@ -7,9 +7,11 @@ const FilterBox = (props) => {
       <div className="Div_Tag_CSS">
         {props.arrayTags.map((tag, index) => {
           return (
-            <p className="P_Tag_CSS" key={index}>
+            <p id={"P_Tag_"+index+"_JSX"} className="P_Tag_CSS" key={index}>
               {tag}
-              <i className="I_Times_CSS fas fa-times"></i>
+              <i className="I_Times_CSS fas fa-times" onClick={()=>{
+                props.removeTage(document.getElementById("P_Tag_" + index + "_JSX").textContent);
+              }}></i>
             </p>
           );
         })}

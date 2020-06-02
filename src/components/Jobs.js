@@ -4,8 +4,7 @@ import "./Jobs.css";
 const Jobs = (props) => {
   return (
     <div id="Div_Jobs_JSX" className="Div_Jobs_CSS">
-      {console.log(props.arrayTags)}
-      {props.jobInfo.map((job, index) => {
+      {props.jobsInfo.map((job, index) => {
         return (
           <div key={index} className="Div_JobInfo_CSS">
             <div className="Div_Logo_CSS">
@@ -34,8 +33,7 @@ const Jobs = (props) => {
               <p
                 className="P_Tags_CSS"
                 onClick={(e) => {
-                  props.addTags(e.target.textContent)
-                  props.addFilter(e.target.textContent);
+                  props.addTags(e.target.textContent);
                 }}
               >
                 {job.role}
@@ -43,8 +41,7 @@ const Jobs = (props) => {
               <p
                 className="P_Tags_CSS"
                 onClick={(e) => {
-                  props.addTags(e.target.textContent)
-                  props.addFilter(e.target.textContent);
+                  props.addTags(e.target.textContent);
                 }}
               >
                 {job.level}
@@ -53,8 +50,7 @@ const Jobs = (props) => {
                 <p
                   className="P_Tags_CSS"
                   onClick={(e) => {
-                    props.addTags(e.target.textContent)
-                    props.addFilter(e.target.textContent);
+                    props.addTags(e.target.textContent);
                   }}
                   key={"l" + i}
                 >
@@ -65,8 +61,7 @@ const Jobs = (props) => {
                 <p
                   className="P_Tags_CSS"
                   onClick={(e) => {
-                    props.addTags(e.target.textContent)
-                    props.addFilter(e.target.textContent);
+                    props.addTags(e.target.textContent);
                   }}
                   key={"t" + i}
                 >
