@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.css';
-// import HeaderBackgroundSVG from '../files/bg-header-desktop.svg';
 
 const Header = () =>{
     return(

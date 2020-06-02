@@ -47,7 +47,6 @@ function App() {
 
   return (
     <div id="Div_App_JSX" className="Div_App_CSS">
-      {/* {console.log(tags)} */}
       <Header />
       <FilterBox removeAllTags={RemoveAllTags} removeTage={RemoveTags} arrayTags={tags} />
       <Jobs jobsInfo={data} addTags={AddTags} />
