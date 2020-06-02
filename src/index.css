@@ -5,6 +5,12 @@ body {
   margin: 0px;
   background-color: #effafa;
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+}
 
 #root{
   width: 100%;
