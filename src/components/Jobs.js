@@ -6,7 +6,7 @@ const Jobs = (props) => {
     <div id="Div_Jobs_JSX" className="Div_Jobs_CSS">
       {props.jobsInfo.map((job, index) => {
         return (
-          <div key={index} className="Div_JobInfo_CSS">
+          <div key={index} className={job.featured ? "Div_JobInfo_CSS Div_JobInfoFuture_CSS" : "Div_JobInfo_CSS"}>
             <div className="Div_Logo_CSS">
               <img src={job.logo} className="Img_Logo_CSS" alt="Logo" />
             </div>
