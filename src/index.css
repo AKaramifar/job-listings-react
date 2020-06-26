@@ -16,7 +16,7 @@ body {
   transition: 200ms;
 }
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 0px;
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
